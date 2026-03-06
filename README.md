@@ -114,11 +114,8 @@ All three parts share a strict contract described in `API_CONTRACT.md`.
 
 ## Ownership
 
-Assign each folder to a specific team member so responsibilities are clear:
+- **Daksh** — owner of `frontend/`
+- **Shivang** — owner of `middleware/`
+- **Chinmay** — owner of `backend/`
 
-- **Team member 1** — owner of `frontend/`
-- **Team member 2** — owner of `middleware/`
-- **Team member 3** — owner of `backend/`
-
-Update this section with real names once the team is finalized.
 
