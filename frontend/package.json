@@ -1,0 +1,11 @@
+{
+  "//": "Minimal placeholder package.json for Vite + React + TS frontend",
+  "name": "quantum-shield-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}

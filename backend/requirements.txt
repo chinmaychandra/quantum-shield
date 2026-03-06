@@ -1,0 +1,2 @@
+# backend requirements — Python dependencies for scanner and worker
+

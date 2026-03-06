@@ -1,0 +1,2 @@
+# middleware requirements — Python dependencies for FastAPI middleware service
+
