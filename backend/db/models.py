@@ -13,6 +13,7 @@ from datetime import datetime
 class Base(DeclarativeBase):
     pass
 
+# users       → who can log in, what role they have
 class User(Base):
     __tablename__ = "users"
 
@@ -25,6 +26,7 @@ class User(Base):
     created_at:   Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
 
+# scans       → every scan job submitted, its status
 class ScanRecord(Base):
     __tablename__ = "scans"
 
@@ -42,6 +44,7 @@ class ScanRecord(Base):
     completed_at: Mapped[datetime] = mapped_column(DateTime, nullable=True)
 
 
+# cbom        → the actual results, risk score, PQC label, badge
 class CBOMRecord(Base):
     __tablename__ = "cbom"
 
@@ -66,6 +69,7 @@ class CBOMRecord(Base):
     created_at:  Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
 
+# audit_log   → every action anyone takes, for compliance
 class AuditLog(Base):
     __tablename__ = "audit_log"
 
