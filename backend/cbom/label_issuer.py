@@ -18,8 +18,8 @@ import nacl.exceptions
 
 from config import settings
 from classifier.pqc_classifier import ClassificationResult
-from classifier.risk_scorer    import RiskScore
-from utils.logger              import get_logger
+from classifier.risk_scorer  import RiskScore
+from utils.logger  import get_logger
 
 # Badge lifecycle:
 #   ISSUED    → fresh scan, asset passed threshold

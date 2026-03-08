@@ -12,13 +12,13 @@ import uuid
 from datetime import datetime, timezone
 from typing import Optional
 
-from scanner.tls_scanner   import TLSScanResult
-from scanner.cert_parser   import CertResult
-from scanner.api_prober    import APIProbeResult
-from scanner.discovery     import DiscoveryResult
+from scanner.tls_scanner import TLSScanResult
+from scanner.cert_parser import CertResult
+from scanner.api_prober import APIProbeResult
+from scanner.discovery import DiscoveryResult
 from classifier.pqc_classifier import ClassificationResult
-from classifier.risk_scorer    import RiskScore
-from utils.logger              import get_logger
+from classifier.risk_scorer  import RiskScore
+from utils.logger  import get_logger
 
 logger = get_logger(__name__)
 
