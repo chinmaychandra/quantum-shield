@@ -257,3 +257,4 @@ def check_info_leakage(headers: dict, result: APIProbeResult):
         result.warnings.append(
             f"WARNING: X-Powered-By reveals framework: {powered_by}"
         )
+        
